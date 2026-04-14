@@ -1,13 +1,13 @@
 {
-  "name": "AFK Bot",
+  "name": "Bot1",
   "bot-account": {
-    "username": "Slobot00",
+    "username": "Bot1",
     "password": "",
     "type": "offline"
   },
   "server": {
-    "ip": "slobtest1.aternos.me",
-    "port": 27586,
+    "ip": "t2s.aternos.me",
+    "port":  40367,
     "version": "",
     "try-creative": false
   },
@@ -20,20 +20,18 @@
   "utils": {
     "auto-auth": {
       "enabled": true,
-      "password": "chalol78"
+      "password": "Bot1385739035835083509"
     },
     "anti-afk": {
       "enabled": true,
       "sneak": true
     },
     "chat-messages": {
-      "enabled": true,
+      "enabled": false,
       "repeat": true,
       "repeat-delay": 120,
       "messages": [
-        "I'm a regular player",
-        "Subscribe to Slobos!",
-        "I like to play Minecraft!"
+        ""
       ]
     },
     "chat-log": true,
@@ -77,7 +75,7 @@
     "webhookUrl": "YOUR_DISCORD_WEBHOOK_URL_HERE",
     "events": {
       "connect": true,
-      "disconnect": true,
+      "disconnect": false,
       "chat": false
     }
   },
