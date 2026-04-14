@@ -1,7 +1,7 @@
 {
-  "name": "ClownPierce",
+  "name": "Bot1",
   "bot-account": {
-    "username": "ClownPierce",
+    "username": "Bot1",
     "password": "",
     "type": "offline"
   },
@@ -20,7 +20,7 @@
   "utils": {
     "auto-auth": {
       "enabled": true,
-      "password": "clwnprc"
+      "password": "Bot1"
     },
     "anti-afk": {
       "enabled": true,
@@ -31,9 +31,9 @@
       "repeat": false,
       "repeat-delay": 999999999,
       "messages": [
-        "",
-        "",
-        ""
+        "this server is perfect",
+        "this server is so good",
+        "this server is the best"
       ]
     },
     "chat-log": true,
@@ -77,7 +77,7 @@
     "webhookUrl": "YOUR_DISCORD_WEBHOOK_URL_HERE",
     "events": {
       "connect": true,
-      "disconnect": true,
+      "disconnect": false,
       "chat": false
     }
   },
