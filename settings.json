@@ -77,7 +77,7 @@
     "webhookUrl": "bot",
     "events": {
       "connect": true,
-      "disconnect": false,
+      "disconnect": true,
       "chat": false
     }
   },
