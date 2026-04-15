@@ -1,7 +1,7 @@
 {
-  "name": "Bot1",
+  "name": "Bot",
   "bot-account": {
-    "username": "Bot1",
+    "username": "Bot",
     "password": "",
     "type": "offline"
   },
@@ -20,7 +20,7 @@
   "utils": {
     "auto-auth": {
       "enabled": true,
-      "password": "Bot1"
+      "password": "Bot"
     },
     "anti-afk": {
       "enabled": true,
@@ -74,7 +74,7 @@
   },
   "discord": {
     "enabled": false,
-    "webhookUrl": "YOUR_DISCORD_WEBHOOK_URL_HERE",
+    "webhookUrl": "bot",
     "events": {
       "connect": true,
       "disconnect": false,
