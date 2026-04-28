@@ -1,14 +1,14 @@
 {
-  "name": "Bot",
+  "name": "ClownPierce",
   "bot-account": {
-    "username": "Bot",
+    "username": "ClownPierce",
     "password": "",
-    "type": "offline"
+    "type": "online"
   },
   "server": {
     "ip": "_t2s.aternos.me",
     "port": 40367,
-    "version": "",
+    "version": "1.21.11",
     "try-creative": false
   },
   "position": {
@@ -20,20 +20,21 @@
   "utils": {
     "auto-auth": {
       "enabled": true,
-      "password": "Bot"
+      "password": "ClownPierce"
     },
     "anti-afk": {
       "enabled": true,
       "sneak": true
     },
     "chat-messages": {
-      "enabled": false,
-      "repeat": false,
-      "repeat-delay": 999999999,
+      "enabled": true,
+      "repeat": true,
+      "repeat-delay": 100,
       "messages": [
         "this server is perfect",
         "this server is so good",
-        "this server is the best"
+        "this server is the best",
+        "this server is better than others"
       ]
     },
     "chat-log": true,
@@ -46,7 +47,7 @@
     "circle-walk": {
       "enabled": true,
       "radius": 4,
-      "speed": 3000
+      "speed": 1
     },
     "look-around": {
       "enabled": true,
@@ -58,8 +59,8 @@
     }
   },
   "modules": {
-    "avoidMobs": true,
-    "combat": true,
+    "avoidMobs": false,
+    "combat": false,
     "beds": false,
     "chat": true,
     "console-commands": true
