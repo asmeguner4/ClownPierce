@@ -1,14 +1,14 @@
 {
-  "name": "ClownPierce",
+  "name": "Bot",
   "bot-account": {
-    "username": "ClownPierce",
+    "username": "Bot",
     "password": "",
-    "type": "online"
+    "type": "offlinee"
   },
   "server": {
-    "ip": "_t2s.aternos.me",
-    "port": 40367,
-    "version": "1.21.11",
+    "ip": "buffalopvp.aternos.me",
+    "port": 35364,
+    "version": "",
     "try-creative": false
   },
   "position": {
