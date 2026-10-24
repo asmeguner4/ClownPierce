@@ -1,13 +1,13 @@
 {
-  "name": "Bot",
+  "name": "Umut_Ozdemir",
   "bot-account": {
-    "username": "Bot",
-    "password": "",
-    "type": "offlinee"
+    "username": "Umut_Ozdemir",
+    "password": "67676767",
+    "type": "offline"
   },
   "server": {
-    "ip": "buffalopvp.aternos.me",
-    "port": 35364,
+    "ip": "ybo.mcsh.gg",
+    "port": 25565,
     "version": "",
     "try-creative": true
   },
@@ -20,14 +20,14 @@
   "utils": {
     "auto-auth": {
       "enabled": true,
-      "password": "ClownPierce"
+      "password": "67676767"
     },
     "anti-afk": {
       "enabled": true,
       "sneak": true
     },
     "chat-messages": {
-      "enabled": true,
+      "enabled": false,
       "repeat": true,
       "repeat-delay": 100,
       "messages": [
